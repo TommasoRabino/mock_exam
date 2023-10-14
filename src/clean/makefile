@@ -2,5 +2,5 @@
 
 all: clean-up
 
-clean-up: 
-	Rscript clean-up.R
+clean-up: clean-up.R
+	R --vanilla < clean-up.R

@@ -5,8 +5,8 @@ library(reshape2)
 
 # CLEAN DATA 
 
-reviews <- read_csv("../../data/dataset2/reviews.csv")
-listings <- read_csv("../../data/dataset1/listings.csv")
+reviews <- read_csv("../../data/reviews.csv")
+listings <- read_csv("../../data/listings.csv")
 
 ## filter for reviews published since 01/01/2015
 reviews_filtered <- reviews %>% filter(date > "2015-01-01")
