@@ -11,7 +11,7 @@ download_data <- function(url, filename){
 url_listings <- "http://data.insideairbnb.com/belgium/vlg/antwerp/2021-02-25/visualisations/listings.csv"
 url_reviews <- "http://data.insideairbnb.com/belgium/vlg/antwerp/2021-02-25/visualisations/reviews.csv"
 
-download_data(url_listings, "../../data/dataset1/listings")
-download_data(url_reviews, "../../data/dataset2/reviews")
+download_data(url_listings, "../../data/listings")
+download_data(url_reviews, "../../data/reviews")
 
 
